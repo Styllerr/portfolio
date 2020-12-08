@@ -1,0 +1,12 @@
+.wrapper-header {
+    display: inline-block;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: $grey;
+    &__links {
+        display: inline-block;
+    }
+}
